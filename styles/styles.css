@@ -1,0 +1,117 @@
+* {color: white;
+}
+
+h1, h2, p {margin: 0;
+    display:inline-block;
+font-weight: normal;}
+ 
+
+section {
+    background-color: #2E8BC0;
+    width: 75%;
+    border-style: solid;
+    border-color: #145DA0;
+    border-width: 10px;
+    padding: 0px 100px 150px 100px;
+}
+
+img {vertical-align: middle;} 
+
+ul {
+    list-style: none; 
+    padding: 0px;
+    margin: 0px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list > .item {
+    outline: 3px solid #FFFFFF;
+    flex-basis: calc(100%/4);
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cell {text-align: center;
+font-size: 12px;
+padding: 15px;
+}
+
+.container p {
+    color: rgba(255,255,255,0.75);
+}
+
+.title {
+    margin-top: 12px;
+    margin-bottom: 12px;}
+
+.advise {
+    margin-top: 12px;
+}
+
+.item.Lisbon {
+    background-color: #FF7F50	;
+    flex-basis: calc(100%/4*2);
+}
+
+.item.Paris {
+    background-color: #20B2AA;
+}
+
+.item.Belgrad {
+    background-color: #BA55D3;
+}
+
+.item.Sydney {
+    flex-basis: calc(100%);
+    background-color: #4B0082;
+}
+
+.item.Warsaw {
+    background-color: #A52A2A;
+}
+.item.TA {
+    background-color: #006400		;
+}
+.item.NY {
+    background-color: #FFD700;
+}
+
+.item.ND {
+    background-color: #696969;
+
+}
+
+.item.SF {
+    background-color: #EE82EE;
+    flex-basis: calc(100%/4*2);
+}
+
+.item.Tokyo {
+    background-color: #0000FF;
+}
+
+.item.Cair {
+    background-color: #9ACD32;
+}
+
+
+
+ul:hover > li:not(:hover) {
+
+    background-color: #C0C0C0;
+}
+
+    /* background-color: grey; */
+/* Selects all of following neibour items 
+.item:hover ~ .item {
+    background-color: black;
+} */
+
+
